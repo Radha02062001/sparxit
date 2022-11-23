@@ -40,7 +40,7 @@ return(
       <div className="box2">
 
       <div className="w3">
-                    <div className="ne">
+                    <div className="full">
             <img src="https://www.sparxitsolutions.com/assets-style/images/getmybook-logo.svg"
         alt=""
         width="100px"
@@ -80,7 +80,7 @@ For Learners</h3>
       <div className="box4">
 
       <div className="w3">
-                    <div className="ne">
+                    <div className="full">
             <img src="https://www.sparxitsolutions.com/assets-style/images/getmybook-logo.svg"
         alt=""
         width="100px"
@@ -119,7 +119,7 @@ For Construction Firm</h3>
       </div>
       <div className="box6">
       <div className="w3">
-                    <div className="ne">
+                    <div className="full">
             <img src="https://www.sparxitsolutions.com/assets-style/images/getmybook-logo.svg"
         alt=""
         width="100px"

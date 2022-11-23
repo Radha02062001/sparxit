@@ -25,15 +25,7 @@ const Motto=()=>{
             <h1>Let Us Guide You</h1>
             <p>From ideation to final execution, we stand by our<br/> clients and 
                     establish their strong digital presence.</p>
-            <div className="as">
-                <ul>
-                <li><a href="#">Prototyping</a></li>
-                   <li><a href="#">MVP</a> </li>
-                  <li> <a href="#">Startup Incubation Services</a></li>
-               <li><a href="#"> Branding</a></li>
-               </ul>
-               </div>
-                
+           
             </div>
         </div>
         

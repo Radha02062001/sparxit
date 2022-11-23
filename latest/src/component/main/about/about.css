@@ -22,7 +22,7 @@
     border: 2px solid black;
     
 }
-.us{
+.about .us{
     display: grid;
     grid-template-columns: auto auto auto auto;
     
