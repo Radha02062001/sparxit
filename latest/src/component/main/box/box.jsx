@@ -82,6 +82,35 @@ const Box = () => {
                 <hr></hr>
               </div>
             </div>
+      </div>
+      <div className="box2">
+
+      <div className="w3">
+                    <div className="full">
+            <img src="https://www.sparxitsolutions.com/assets-style/images/getmybook-logo.svg"
+        alt=""
+        width="100px"
+        height="36px"/>
+        </div>
+        <h3>Read Full Case Study</h3>
+        </div>
+        <hr></hr>    
+        <h3>A Book Portal<br/>
+For Learners</h3>
+<p>Get My Book is a digital platform providing learners<br/> direct
+     access to a vast collection of books. 
+    The <br/>platform has been designed to indulge in a rich user <br/>experience.</p>
+    <hr></hr>
+    <h4>Our Story in Numbers</h4>
+    <div className="in">
+        <div><h6>250+</h6><br/><h5>Professionals</h5></div>
+        <div><h6>90%</h6><br/><h5>Satisfied Clients</h5></div>
+        <div><h6>15500+</h6><br/><h5>Projects Undertaken</h5></div>
+        
+    </div>
+    <hr></hr>
+      </div>
+      </div>
           </div>
           <div>
             <div className="shop1">
@@ -135,11 +164,40 @@ const Box = () => {
                     <h6>15500+</h6>
                     <br />
                     <h5>Projects Undertaken</h5>
-                  </div>
+                
                 </div>
                 <hr></hr>
               </div>
             </div>
+      </div>
+      <div className="box4">
+
+      <div className="w3">
+                    <div className="full">
+            <img src="https://www.sparxitsolutions.com/assets-style/images/getmybook-logo.svg"
+        alt=""
+        width="100px"
+        height="36px"/>
+        </div>
+        <h3>Read Full Case Study</h3>
+        </div>
+        <hr></hr>    
+        <h3>ERP Solution<br/>
+For Construction Firm</h3>
+<p>Canis is a web-based ERP application designed to <br/>manage day-to-day 
+  tasks with an automated task<br/> management system ensuring maximum productivity.</p>
+    <hr></hr>
+    <h4>Our Story in Numbers</h4>
+    <div className="in">
+        <div><h6>250+</h6><br/><h5>Professionals</h5></div>
+        <div><h6>90%</h6><br/><h5>Satisfied Clients</h5></div>
+        <div><h6>15500+</h6><br/><h5>Projects Undertaken</h5></div>
+        
+    </div>
+    <hr></hr>
+
+      </div>
+      </div>
           </div>
           <div>
             <div className="shop2">
@@ -201,6 +259,33 @@ const Box = () => {
           </div>
         </Slider>
       </div>
+<<<<<<< HEAD
+=======
+      <div className="box6">
+      <div className="w3">
+                    <div className="full">
+            <img src="https://www.sparxitsolutions.com/assets-style/images/getmybook-logo.svg"
+        alt=""
+        width="100px"
+        height="36px"/>
+        </div>
+        <h3>Read Full Case Study</h3>
+        </div>
+        <hr></hr>    
+        <h3>360-Degree<br/>
+Wellness Platform</h3>
+<p>MyLifeWell is a complete solution package dedicated to wellness and retreat services
+   with multiple interfaces for<br/> eCommerce, streaming, and booking offline sessions.
+
+</p>
+    <hr></hr>
+    <h4>Our Story in Numbers</h4>
+    <div className="in">
+        <div><h6>250+</h6><br/><h5>Professionals</h5></div>
+        <div><h6>90%</h6><br/><h5>Satisfied Clients</h5></div>
+        <div><h6>15500+</h6><br/><h5>Projects Undertaken</h5></div>
+        
+>>>>>>> 6a684b62b124d6f6a7f3fb9fbb529c8e7f097920
     </div>
   );
 };
