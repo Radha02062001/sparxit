@@ -9,7 +9,7 @@ import Block from "./component/main/block/block";
 import Class from "./component/main/reco/reco";
 import About from "./component/main/about/about";
 import From from "./component/main/from/from";
-import Box from "./component/main/box/box";
+// import Box from "./component/main/box/box";
 import Header from "./component/header/header";
 import Footer from "./component/footer/footer";
 function App() {
@@ -25,7 +25,7 @@ function App() {
       <Class />
       <About />
       <From />
-      <Box />
+      {/* <Box /> */}
       <Footer />
     </>
   );
