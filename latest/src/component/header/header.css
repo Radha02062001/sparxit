@@ -95,7 +95,7 @@
 
 .service-btn:hover::after {
   /* text-decoration: underline;
-            text-decoration-color: gray; */
+              text-decoration-color: gray; */
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -152,8 +152,8 @@
 }
 
 /* .service-content a:hover {
-            background-color: #ddd;
-          } */
+              background-color: #ddd;
+            } */
 
 .services:hover .service-content {
   text-decoration: underline;
@@ -222,7 +222,7 @@
 
 .technologies.tech-btn:hover::after {
   /* text-decoration: underline;
-            text-decoration-color: gray; */
+              text-decoration-color: gray; */
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -268,8 +268,8 @@
 }
 
 /* .service-content a:hover {
-            background-color: #ddd;
-          } */
+              background-color: #ddd;
+            } */
 
 .technologies:hover .tech-content {
   text-decoration: underline;
@@ -309,7 +309,7 @@
 
 .offshore.off-btn:hover::after {
   /* text-decoration: underline;
-            text-decoration-color: gray; */
+              text-decoration-color: gray; */
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -355,8 +355,8 @@
 }
 
 /* .service-content a:hover {
-            background-color: #ddd;
-          } */
+              background-color: #ddd;
+            } */
 
 .offshore:hover .off-content {
   text-decoration: underline;
@@ -396,7 +396,7 @@
 
 .industries.industries-btn:hover::after {
   /* text-decoration: underline;
-            text-decoration-color: gray; */
+              text-decoration-color: gray; */
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -442,8 +442,8 @@
 }
 
 /* .service-content a:hover {
-            background-color: #ddd;
-          } */
+              background-color: #ddd;
+            } */
 
 .industries:hover .industries-content {
   text-decoration: underline;
@@ -478,7 +478,7 @@
 
 .main-logo a:hover::after {
   /* text-decoration: underline;
-            text-decoration-color: gray; */
+              text-decoration-color: gray; */
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -551,7 +551,7 @@
 
 .who-we-are.who-we-are-btn:hover::after {
   /* text-decoration: underline;
-            text-decoration-color: gray; */
+              text-decoration-color: gray; */
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -597,8 +597,8 @@
 }
 
 /* .service-content a:hover {
-            background-color: #ddd;
-          } */
+              background-color: #ddd;
+            } */
 
 .who-we-are:hover .who-we-are-content {
   text-decoration: underline;
