@@ -1,0 +1,237 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.fault{
+    height:500%;
+}
+.fault h1{
+    font-size:50px;
+    font-weight: bold;
+    padding: 30px;
+}
+.fault h2{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #14151b;
+}
+
+.div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding:60px;
+    
+}
+.div1{
+
+    height: 250px;
+    width: 350px;
+}
+.div1 hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.div1 h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.div1 h3{
+    font-size: 30px;
+}
+.div1 h3:hover{
+    color: red;
+}
+.div2{
+    
+    height: 250px;
+    width: 350px;
+}
+.div2 hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.div2 h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.div2 h3{
+    font-size: 30px;
+}
+.div2 h3:hover{
+    color: red;
+}
+.div3{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.div3 hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.div3 h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.div3 h3{
+    font-size: 30px;
+}
+.div3 h3:hover{
+    color: red;
+}
+.div4{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.div4 hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.div4 h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.div4 h3{
+    font-size: 30px;
+}
+.div4 h3:hover{
+    color: red;
+}
+.div5{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.div5 hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.div5 h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.div5 h3{
+    font-size: 30px;
+}
+.div5 h3:hover{
+    color: red;
+}
+.div6{
+     height: 250px;
+    width: 350px;
+}
+
+.div6 hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.div6 h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.div6 h3{
+    font-size: 30px;
+}
+
+.div6 h3:hover{
+    color: red;
+}
+.div7{
+    height: 250px;
+    width: 350px;
+}
+
+.div7 hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.div7 h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.div7 h3{
+    font-size: 30px;
+}
+
+.div7 h3:hover{
+    color: red;
+}
+.div8{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.div8 hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.div8 h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.div8 h3{
+    font-size: 30px;
+}
+.div8 h3:hover{
+    color: red;
+}
+.div9{
+    height: 250px;
+    width: 350px;
+}
+
+.div9 hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+    
+}
+.div9 h4{
+    font-size: 16px;
+    color: rgb(73, 71, 71);
+}
+.div9 h3{
+    font-size: 30px;
+}
+
+.div9 h3:hover{
+    color: red;
+}

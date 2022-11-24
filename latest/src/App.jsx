@@ -9,10 +9,14 @@ import Block from './component/main/block/block'
 import Class from './component/main/reco/reco'
 import About from "./component/main/about/about"
 import From from "./component/main/from/from"
-
 import Header from './component/header/header'
+import Footer from './component/footer/footer'
+import Mobile from './component/pages/services/appdev/mobileapp'
+import Map from './component/pages/services/appdev/map/map'
+import Develop from './component/pages/services/appdev/Development/development'
+
 function App() {
-  return(
+  return (
     <>
     <Header/>
     <Hero/>
@@ -24,9 +28,12 @@ function App() {
     <Class/>
     <About/>
     <From/>
-  
+    <Footer/>
+    <Mobile/>
+    <Map/>
+    <Develop/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
