@@ -9,10 +9,12 @@ import Block from './component/main/block/block'
 import Class from './component/main/reco/reco'
 import About from "./component/main/about/about"
 import From from "./component/main/from/from"
-import Box from './component/main/box/box'
+
+import Header from './component/header/header'
 function App() {
   return(
     <>
+    <Header/>
     <Hero/>
     <Accla/>
     <Motto/>
@@ -22,7 +24,7 @@ function App() {
     <Class/>
     <About/>
     <From/>
-    <Box/>
+  
     </>
   )
 }
