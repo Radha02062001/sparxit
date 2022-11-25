@@ -101,7 +101,7 @@ const Footer = () => {
           <a href="#">Internet of Things(IoT)</a>
         </div>
 
-        <div className="contact-menu">
+        <div className="footer-contact">
           <p>CONTACT</p>
           <div className="country-india">
             <img
