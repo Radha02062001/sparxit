@@ -14,6 +14,7 @@ import Mobile from "./component/pages/services/appdev/mobileapp";
 import Map from "./component/pages/services/appdev/map/map";
 import Develop from "./component/pages/services/appdev/Development/development";
 import Contact from "./component/header/contact/contact";
+import Box from "./component/footer/box/box";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/contact" element={<Contact />} />
+        <Route path="/develop" element={<Develop />} />
       </Routes>
       <Hero />
       <Accla />
@@ -30,12 +32,12 @@ function App() {
       <Web />
       <Block />
       <Class />
+      <Box />
       <About />
       <From />
       <Footer />
       <Mobile />
       <Map />
-      <Develop />
     </>
   );
 }

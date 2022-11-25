@@ -287,3 +287,18 @@
   background-color: black;
   padding: 30px;
 }
+.chat-pop {
+  border: 3px solid #e42c38;
+  border-radius: 600px;
+  width: 54px;
+  height: 54px;
+  background-color: #e42c38;
+  box-shadow: 0 0 19.36px 2.64px rgb(20 21 27 / 8%);
+  bottom: 0px;
+  right: 20px;
+  position: fixed;
+  z-index: 1000;
+}
+.chat-pop img {
+  padding: 4px;
+}
