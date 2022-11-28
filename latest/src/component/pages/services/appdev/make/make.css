@@ -1,0 +1,53 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+.make{
+ height: 700px;
+ background-color: darksalmon;
+ 
+}
+.credible{
+    display:grid;
+    grid-template-columns: auto auto;
+   margin-top: 50px;
+    gap: 10px;
+   margin-left: 60px;
+
+}
+.company{
+ width:600px;
+ height: 500px;
+ display: flex;
+ flex-direction: row;
+ 
+}
+.bene{
+    width: 400px;
+    height: 400px;
+}
+
+.faster{
+    width:200px;
+    height: 400px;
+}
+.faster hr{
+    border: 2px solid black;
+}
+.faster h2{
+    padding:20px;
+}
+.smart{
+    width: 500px;
+    height: 400px;
+}
+.smart h3{
+    padding:15px;
+}
