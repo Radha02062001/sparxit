@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const Mobile = () => {
   return (
     <div className="service">
-      <div className="service1">
+      <div className="ser-vice">
         <h1>
-          Mobile App <br />
-          Development <br />
+          Mobile App 
+          Development
           Company
         </h1>
         <hr></hr>
@@ -21,20 +21,20 @@ const Mobile = () => {
         </div>
         <hr></hr>
       </div>
-      <div className="service2">
+      <div className="servi-ce">
         <hr></hr>
         <h1>
-          End to End Mobile App <br />
+          End to End Mobile App 
           Development Services
         </h1>
         <p>
           Sparx IT Solutions serves Startups, SMBs, and Enterprises.
-          <br />
+          
           Our tailor-made native and cross-platform solutions boost
-          <br /> their growth. We create competitive mobile apps for various
-          <br /> industrial domains.Our mobile app developers follow market
-          <br /> trends to ideate, innovate, and create mobile apps. This adds
-          <br /> engagement and modernity to apps. Businesses achieve <br />
+           their growth. We create competitive mobile apps for various
+           industrial domains.Our mobile app developers follow market
+           trends to ideate, innovate, and create mobile apps. This adds
+           engagement and modernity to apps. Businesses achieve 
           desired user retention rates with these apps.Let’s Discuss Your Idea
         </p>
         <button>Let's Discuss Your idea</button>

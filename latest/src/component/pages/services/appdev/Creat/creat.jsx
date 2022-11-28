@@ -51,6 +51,7 @@ const Creat=()=>{
             <div className="slick">
           
             </div>
+            <div className="custom-bar"></div>
             </div>
     
             <div className="Martino">
@@ -63,7 +64,9 @@ const Creat=()=>{
                     <h3>Martino Raco
 Australia</h3>
                 </div>
+                
                 <div className="aust">
+                
                     <p>“Hi, my name is martin and I approached Sparx IT Solutions for a project I
                          had in mind and right from the beginning I was made to feel right at home. 
              I felt comfortable to ask questions and I was treated with respect the project was assigned to

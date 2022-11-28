@@ -17,17 +17,18 @@
     grid-template-columns: auto auto;
     gap: 10px;
 }
-.service1{
+.ser-vice{
     padding:8%;
     width: 700px;
     height: 500px;
 }
-.service1 h1{
+.ser-vice h1{
     font-size:3rem;
     font-weight:bolder;
     margin-bottom: 20px;
+    padding: 20px;
 }
-.service1 hr{
+.ser-vice hr{
     border:2px solid black;
 }
 .expertise{
@@ -51,22 +52,23 @@
 .st{
     margin-left: 60px;
 }
-.service2{
-    padding:8%;
+.servi-ce{
+    padding:20px;
     width: 600px;
     height: 500px;
 }
-.service2 hr{
+.servi-ce hr{
     width:70px;
     border:4px solid black;
     margin-bottom: 10px;
 }
-.service2 p {
+.servi-ce p {
     margin-top: 30px;
     color: #14151b;
     font-weight: 400;
+    padding: 10px;
 }
-.service2 button{
+.servi-ce button{
     background-color: #02789e;
     color: #fff;
     font-size: 1.1rem;

@@ -12,11 +12,25 @@ const Steps=()=>{
     </div>
     <div className="Analysis">
 <div className="analys">
-    <hr></hr>
-<h2>Analysis</h2><hr></hr>
-<h2>Designing</h2><hr></hr>
-<h2>Development</h2><hr></hr>
-<h2>QA Testing</h2><hr></hr>
+    
+<div className="an-alys"></div>
+    <div className="an-alyss"></div>
+<h2>Analysis</h2>
+    
+<div className="an-alys"></div>
+    <div className="an-alyss"></div>
+<h2>Designing</h2>
+    
+<div className="an-alys"></div>
+    <div className="an-alyss"></div>
+<h2>Development</h2>
+    
+<div className="an-alys"></div>
+    <div className="an-alyss"></div>
+<h2>QA Testing</h2>
+    
+<div className="an-alys"></div>
+    <div className="an-alyss"></div>
 <h2>Deployment</h2>
 </div>
 <div className="aux">

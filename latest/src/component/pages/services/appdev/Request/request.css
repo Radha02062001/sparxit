@@ -9,6 +9,9 @@
     font-family: "montserrat-Medium";
     font-weight: bold;
 }
+.request{
+  padding: 20px;
+}
 .connect{
     display: grid;
     grid-template-columns: auto auto;
@@ -68,8 +71,7 @@
     color: grey;
   }
   #inputs {
-    width: 100%;
-    
+    width: 470px;
     padding: 9px 18px;
     background-color: #fff;
     background-image: none;
@@ -103,13 +105,12 @@
     font-size: 16px;
     background: #02789e;
     border-radius: 3px;
-    padding: 25px !important;
+    padding: 15px !important;
     border-color: #02789e;
-
     outline: 0;
     color: white;
   }
   .formsubmit button:hover {
-    background-color: #2e2e2e;
-    border-color: #2e2e2e;
+    color: white;
+    
   }

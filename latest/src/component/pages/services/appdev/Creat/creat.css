@@ -28,15 +28,19 @@
     padding:20px;
 }
 .view1 h2 button{
-    background-color: aqua;
+    color:white;
     margin-left:70%;
     height: 40px;
     color: #14151b;
     font-size: 1.1rem;
-    border: 2px solid #02789e;
+    border:1px solid #02789e;
     transition: all .5s;
     border-radius: 2px;
     font-weight: 700;
+    padding: 10px;
+}
+.view1 h2 button:hover{
+    background-color: #02789e;
 }
 .view2{
     width: 600px;
@@ -105,7 +109,7 @@
 }
 .view2{
     width: 99%;
-    height: 400px;
+    height: 450px;
     background-color: white;
     box-shadow: 4px 4px lightgrey;
     transition: transform.10s; 
@@ -162,4 +166,9 @@
 .aust p {
     padding:40px;
     font-size:20px;
+}
+.custom-bar{
+    border: 2px solid black;
+    background-color: black;
+    width: 143%;
 }
