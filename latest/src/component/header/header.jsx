@@ -15,6 +15,7 @@ import huawei from "../../assets/icons/header/huawei.svg";
 import motorola from "../../assets/icons/header/motorola.svg";
 import necco from "../../assets/icons/header/necco.svg";
 import suzuki from "../../assets/icons/header/suzuki.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -49,7 +50,7 @@ const Header = () => {
             <div className=" show-service-content">
               <div className="app-dev">
                 <h4>App Development</h4>
-                <a href="#"> Mobile App Development</a>
+                <Link to="/develop">Mobile App Development</Link>
                 <a href="#">Hybrid App</a>
                 <a href="#">Wearable App</a>
                 <a href="#"> App maintenance</a>
@@ -268,7 +269,7 @@ const Header = () => {
           </div>
         </div>
         <div className="con-btn">
-          <a href="#">Contact Us</a>
+          <Link to="/contact">Contact Us</Link>
         </div>
       </div>
     </div>
