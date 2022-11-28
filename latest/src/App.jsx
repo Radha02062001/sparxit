@@ -18,6 +18,7 @@ import Box from "./component/Home/footer/box/box";
 import { Route, Routes } from "react-router-dom";
 import Home from "./component/pages/services/home";
 import Services from "./component/pages/services/service";
+import Ecom from "./component/pages/services/ecom"
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/Services" element={<Services />} />
+        <Route path="/ecom" element={<Ecom/>}/>
       </Routes>
 
       <Footer />

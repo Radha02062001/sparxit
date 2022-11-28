@@ -1,22 +1,21 @@
 import React from "react";
 import "./header.css";
-import mainlogo from "../../../assets/images/header/mainlogo.svg";
-import amdoc from "../../../assets/icons/header/amdoc.svg";
-import bpl from "../../../assets/icons/header/bpl.svg";
-import bupa from "../../../assets/icons/header/bupa.svg";
-import cairn from "../../../assets/icons/header/cairn.svg";
-import circle from "../../../assets/icons/header/circle.svg";
-import cleartrip from "../../../assets/icons/header/cleartrip.svg";
-import vedanta from "../../../assets/icons/header/vedanta.svg";
-import energy from "../../../assets/icons/header/energy.svg";
-import hisense from "../../../assets/icons/header/hisense.svg";
-import hp from "../../../assets/icons/header/hp.svg";
-import huawei from "../../../assets/icons/header/huawei.svg";
-import motorola from "../../../assets/icons/header/motorola.svg";
-import necco from "../../../assets/icons/header/necco.svg";
-import suzuki from "../../../assets/icons/header/suzuki.svg";
+import mainlogo from "../../assets/images/header/mainlogo.svg";
+import amdoc from "../../assets/icons/header/amdoc.svg";
+import bpl from "../../assets/icons/header/bpl.svg";
+import bupa from "../../assets/icons/header/bupa.svg";
+import cairn from "../../assets/icons/header/cairn.svg";
+import circle from "../../assets/icons/header/circle.svg";
+import cleartrip from "../../assets/icons/header/cleartrip.svg";
+import vedanta from "../../assets/icons/header/vedanta.svg";
+import energy from "../../assets/icons/header/energy.svg";
+import hisense from "../../assets/icons/header/hisense.svg";
+import hp from "../../assets/icons/header/hp.svg";
+import huawei from "../../assets/icons/header/huawei.svg";
+import motorola from "../../assets/icons/header/motorola.svg";
+import necco from "../../assets/icons/header/necco.svg";
+import suzuki from "../../assets/icons/header/suzuki.svg";
 import { Link } from "react-router-dom";
-import Slider from "react-slick";
 
 const Header = () => {
   return (
@@ -51,7 +50,7 @@ const Header = () => {
             <div className=" show-service-content">
               <div className="app-dev">
                 <h4>App Development</h4>
-                <Link to="/Services">Mobile App Development</Link>
+                <Link to="/develop">Mobile App Development</Link>
                 <a href="#">Hybrid App</a>
                 <a href="#">Wearable App</a>
                 <a href="#"> App maintenance</a>
@@ -79,7 +78,7 @@ const Header = () => {
 
               <div className="ecom-app">
                 <h4>eCommerce Development</h4>
-               <Link to="/ecom">eCommerce Web Development</Link>
+                <a href="#">eCommerce Web Development</a>
                 <a href="#">eCommerce App development </a>
               </div>
               <div className="design-app">
@@ -106,7 +105,7 @@ const Header = () => {
           </div>
         </div>
         <div className="technologies">
-          <button className="tech-btn">Technologies</button>
+          <button className="tech-btn">Tehnologies</button>
           <div className="tech-content">
             <div className=" show-tech-content">
               <div className="mobile-app">
