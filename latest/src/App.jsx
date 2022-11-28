@@ -25,7 +25,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/develop" element={<Develop />} />
       </Routes>
-      <Hero />
+     <Hero />
       <Accla />
       <Motto />
       <Stake />

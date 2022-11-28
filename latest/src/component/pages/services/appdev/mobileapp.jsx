@@ -3,7 +3,7 @@ import "./mobileapp.css"
 const Mobile=()=>{
 
     return(
-        <div className="services">
+        <div className="service">
             <div className="service1">
            <h1>Mobile App <br/>Development <br/>Company</h1>
          <hr></hr>
