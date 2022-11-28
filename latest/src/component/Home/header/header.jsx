@@ -51,7 +51,7 @@ const Header = () => {
             <div className=" show-service-content">
               <div className="app-dev">
                 <h4>App Development</h4>
-                <Link to="/develop">Mobile App Development</Link>
+                <Link to="/Services">Mobile App Development</Link>
                 <a href="#">Hybrid App</a>
                 <a href="#">Wearable App</a>
                 <a href="#"> App maintenance</a>
