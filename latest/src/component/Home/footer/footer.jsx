@@ -1,11 +1,11 @@
 import React from "react";
 import "./footer.css";
-import linkedin from "../../assets/icons/linkedin.svg";
-import twitter from "../../assets/icons/twitter.svg";
-import instagram from "../../assets/icons/instagram.svg";
-import facebook from "../../assets/icons/facebook.svg";
-import youtube from "../../assets/icons/youtube.svg";
-import chat from "../../assets/icons/footer/chat.svg.svg";
+import linkedin from "../../../assets/icons/linkedin.svg";
+import twitter from "../../../assets/icons/twitter.svg";
+import instagram from "../../../assets/icons/instagram.svg";
+import facebook from "../../../assets/icons/facebook.svg";
+import youtube from "../../../assets/icons/youtube.svg";
+import chat from "../../../assets/icons/footer/chat.svg.svg";
 
 const Footer = () => {
   return (
