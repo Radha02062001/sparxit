@@ -70,9 +70,8 @@
   outline: none;
   background-color: inherit;
 }
-
-.services:hover .service-btn {
-  text-decoration: underline;
+.service-btn:hover {
+  color: grey;
 }
 
 .service-btn {
@@ -80,24 +79,22 @@
   position: relative;
 }
 
-.service-btn ::after {
+.service-btn:after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 160px;
   transform: scaleX(0);
-  height: 2px;
+  height: 3px;
   bottom: 0;
   left: 0;
-  background-color: black;
   transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transition: transform 1.5s ease-out;
 }
 
-.service-btn:hover::after {
-  /* text-decoration: underline;
-              text-decoration-color: gray; */
+.service-btn:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+  background-color: black;
 }
 .show-service-content {
   padding: 30px;
@@ -199,32 +196,31 @@
   background-color: inherit;
 }
 
-.technologies:hover .tech-btn {
-  text-decoration: underline;
-}
-
 .tech-btn {
   display: inline-block;
   position: relative;
 }
-
-.technologies:hover.tech-btn a:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+.tech-btn:hover {
+  color: grey;
 }
 
-.technologies.tech-btn:hover::after {
-  /* text-decoration: underline;
-              text-decoration-color: gray; */
+.tech-btn:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+
+.tech-btn:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+  background-color: black;
 }
 .show-tech-content {
   padding: 30px;
@@ -607,7 +603,7 @@
 
 .nav-slider {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2px;
   overflow: hidden;
   width: 80px;
