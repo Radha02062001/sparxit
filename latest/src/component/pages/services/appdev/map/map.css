@@ -56,8 +56,9 @@
     color: #14151b;
   }
   @media  (max-width: 480px) {
-    .text_section {
+    .section {
       display: grid;
       grid-template-columns: auto;
+      height: 500px;
     }
 }

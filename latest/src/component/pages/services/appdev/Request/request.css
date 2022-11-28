@@ -114,3 +114,9 @@
     color: white;
     
   }
+  @media(max-width:480px){
+    .connect{
+      display: grid;
+      grid-template-columns: auto;
+    }
+  }

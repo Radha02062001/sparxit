@@ -82,9 +82,8 @@
     margin-top: 30px;
 }
 @media(max-width:480px){
-    .services{
+    .service{
         display: grid;
         grid-template-columns: auto;
-        justify-content: center;
     }
 }

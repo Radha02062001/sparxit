@@ -10,8 +10,8 @@
     font-weight: bold;
 }
 .boost {
-    display:grid;
-    grid-template-columns: auto auto auto;
+   display: flex;
+   flex-direction: row;
     background-color: #bcdfea;
     height: 400px;
     gap: 50px;
@@ -86,11 +86,4 @@
     margin-top: 50px;
     width: 50px;
     margin-left: 30px;
-   }
-   @media (max-width: 600px) {
-    .boost{
-        display: grid;
-        grid-template-columns: auto;
-        
-    }
    }
