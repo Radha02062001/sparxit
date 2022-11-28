@@ -17,6 +17,7 @@ import Contact from "./component/Home/header/contact/contact";
 import Box from "./component/Home/footer/box/box";
 import { Route, Routes } from "react-router-dom";
 import Home from "./component/pages/services/home";
+import Services from "./component/pages/services/service";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 
@@ -27,9 +28,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/develop" element={<Develop />} />
-        <Route path="/map" element={<Map />} />
+        <Route path="/Services" element={<Services />} />
       </Routes>
+
       <Footer />
       {/* <Hero />
       <Accla />
@@ -42,8 +43,8 @@ function App() {
       <About />
       <From />
        */}
-      <Mobile />
-      <Map />
+      {/* <Mobile />
+      <Map /> */}
     </>
   );
 }
