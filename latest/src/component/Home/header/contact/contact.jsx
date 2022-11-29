@@ -360,7 +360,7 @@ const Contact = () => {
           )}
         </form>
 
-        <div className="vision-validate">
+        {/* <div className="vision-validate"> 
           <div className="validate">
             <div className="validate-content">
               <h1>
@@ -449,7 +449,7 @@ const Contact = () => {
               <div className="bar-end"></div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
