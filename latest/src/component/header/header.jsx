@@ -83,8 +83,8 @@ const Header = () => {
               </div>
               <div className="design-app">
                 <h4>Website Design & Development </h4>
-                <a href="#">Web Design</a>
-                <a href="#">Website Development</a>
+              <Link to="/web">Web Design</Link>
+                {/* <a href="#">Website Development</a> */}
               </div>
               <div className="side-grid">
                 <div className="data-app">
@@ -245,9 +245,7 @@ const Header = () => {
           <button className="work-btn">Work</button>
           <div className="work-content">
             <div className=" work-off-content">
-              <a href="#w1">
-                <h4>Portfolio</h4>
-              </a>
+              <Link to="/Work">Portfolio</Link>
               <a href="#w2">
                 <h4>Case Studies</h4>
               </a>

@@ -19,6 +19,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./component/pages/services/home";
 import Services from "./component/pages/services/service";
 import Ecom from "./component/pages/services/ecom";
+// import Webdesign from "./component/pages/services/webdesign/webdesign";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 

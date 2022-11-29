@@ -37,12 +37,14 @@
 .analys h2{
     padding: 30px;
 }
-.aux{
+.find{
     width: 500px;
     height: 400px;
 }
-.aux h3{
-    padding:15px;
+.find h3{
+    padding:17px;
+    font-size: 15px;
+
 }
 
 .an-alys{

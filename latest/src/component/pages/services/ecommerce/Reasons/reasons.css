@@ -9,20 +9,14 @@
     font-family: "montserrat-Medium";
     font-weight: bold;
 }
-.growth{
+.choose{
     height:500%;
     margin-top: 20%;
 }
-.growth h1{
+.choose h1{
     font-size:50px;
     font-weight: bold;
     padding: 30px;
-}
-.growth h2{
-    margin-left: 30px;
-    font-weight: bold;
-    font-size: 30px;
-    color: #14151b;
 }
 
 .bring{
@@ -33,63 +27,63 @@
     padding:60px;
     
 }
-.satisfaction{
+.Decades {
     height: 250px;
     width: 350px;
 }
-.satisfaction hr{
+.Decades  hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.satisfaction h4{
+.Decades  h4{
     font-size: 16px;
     margin-top: 10px;
     color: rgb(73, 71, 71);
 }
-.satisfaction h3{
+.Decades  h3{
     font-size: 30px;
 }
-.agile{
+.On-time{
     
     height: 250px;
     width: 350px;
 }
-.agile hr{
+.On-time hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.agile h4{
+.On-time h4{
     font-size: 16px;
     margin-top: 10px;
     color: rgb(73, 71, 71);
 }
-.agile h3{
+.On-time h3{
     font-size: 30px;
 }
-.regular{
+.adopt {
     
     height: 250px;
     width: 350px;
 }
 
-.regular hr{
+.adopt hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
 }
-.regular h4{
+.adopt h4{
     font-size: 16px;
     margin-top: 10px;
     color: rgb(73, 71, 71);
 }
-.regular h3{
+.adopt h3{
     font-size: 30px;
 }
 .replace{
@@ -150,63 +144,5 @@
     color: rgb(73, 71, 71);
 }
 .team h3{
-    font-size: 30px;
-}
-.manager{
-    height: 250px;
-    width: 350px;
-}
-.manager hr{
-    margin-bottom: 10px;
-    width: 350px;
-    height: 10px;
-    background-color: black;
-}
-.manager h4{
-    font-size: 16px;
-    margin-top: 10px;
-    color: rgb(73, 71, 71);
-}
-.manager h3{
-    font-size: 30px;
-}
-.fast{
-    height: 250px;
-    width: 350px;
-}
-
-.fast hr{
-    margin-bottom: 10px;
-    width: 350px;
-    height: 10px;
-    background-color: black;
-    
-}
-.fast h4{
-    font-size: 16px;
-    margin-top: 10px;
-    color: rgb(73, 71, 71);
-}
-.fast h3{
-    font-size: 30px;
-}
-.commit{
-    height: 250px;
-    width: 350px;
-}
-
-.commit hr{
-    margin-bottom: 10px;
-    width: 350px;
-    height: 10px;
-    background-color: black;
-    
-}
-.commit h4{
-    font-size: 16px;
-    margin-top: 10px;
-    color: rgb(73, 71, 71);
-}
-.commit h3{
     font-size: 30px;
 }

@@ -7,7 +7,7 @@ import From from "../../Home/Developmentcost/from";
 import Hero from "../../Home/Heroslide/hero";
 import Motto from "../../Home/Motto/motto";
 import Class from "../../Home/Recognition/reco";
-import Stake from "../../Home/Stakeholders/stake";
+import Stakes from "../../Home/Stakeholders/stake";
 import Web from "../../Home/web/web";
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <Hero />
       <Accla />
       <Motto />
-      <Stake />
+      <Stakes />
       <Web />
       <Block />
       <Class />
