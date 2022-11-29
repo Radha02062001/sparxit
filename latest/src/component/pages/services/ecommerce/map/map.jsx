@@ -14,7 +14,7 @@ const Map = () => {
 
   const renderMap = texts.map((texts) => {
     return (
-      <>
+      <> 
         <div className="card">
           <h2>{texts.title}</h2>
 

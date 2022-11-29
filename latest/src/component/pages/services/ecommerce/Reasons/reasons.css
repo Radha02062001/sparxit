@@ -9,161 +9,140 @@
     font-family: "montserrat-Medium";
     font-weight: bold;
 }
-.hold{
-    background-color: rgb(240, 232, 233);
+.choose{
+    height:500%;
+    margin-top: 20%;
 }
-.hold h1{
-    font-size: 40px;
-    font-weight: bolder;
-    margin-left: 30px;
+.choose h1{
+    font-size:50px;
+    font-weight: bold;
+    padding: 30px;
 }
-.hold p {
-    font-size: 20px;
-    margin-left: 30px;
-}
-.grid{
+
+.bring{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 50px;
-    padding:70px;
+    padding:60px;
     
 }
-.i1{
-
-    height: 200px;
+.Decades {
+    height: 250px;
     width: 350px;
 }
-.i1 hr{
+.Decades  hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.i1 h4{
+.Decades  h4{
     font-size: 16px;
+    margin-top: 10px;
     color: rgb(73, 71, 71);
 }
-.i1 h3{
+.Decades  h3{
     font-size: 30px;
 }
-.i2{
+.On-time{
     
-    height: 200px;
+    height: 250px;
     width: 350px;
 }
-.i2 hr{
+.On-time hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.i2 h4{
+.On-time h4{
     font-size: 16px;
+    margin-top: 10px;
     color: rgb(73, 71, 71);
 }
-.i2 h3{
+.On-time h3{
     font-size: 30px;
 }
-.i3{
+.adopt {
     
-    height: 200px;
+    height: 250px;
     width: 350px;
 }
 
-.i3 hr{
+.adopt hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.adopt h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.adopt h3{
+    font-size: 30px;
+}
+.replace{
+    height: 250px;
+    width: 350px;
+}
+
+.replace hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.replace h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+.replace h3{
+    font-size: 30px;
+}
+.support{
+    
+    height: 250px;
+    width: 350px;
+}
+
+.support hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.i3 h4{
+.support h4{
     font-size: 16px;
+    margin-top: 10px;
     color: rgb(73, 71, 71);
 }
-.i3 h3{
+.support h3{
     font-size: 30px;
 }
-
-.i4{
-    
-    height: 200px;
+.team{
+     height: 250px;
     width: 350px;
 }
 
-.i4 hr{
+.team hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.i4 h4{
+.team h4{
     font-size: 16px;
+    margin-top: 10px;
     color: rgb(73, 71, 71);
 }
-.i4 h3{
+.team h3{
     font-size: 30px;
-}
-
-.i5{
-    
-    height: 200px;
-    width: 350px;
-}
-
-.i5 hr{
-    margin-bottom: 10px;
-    width: 350px;
-    height: 10px;
-    background-color: black;
-    
-}
-.i5 h4{
-    font-size: 16px;
-    color: rgb(73, 71, 71);
-}
-.i5 h3{
-    font-size: 30px;
-}
-
-.i6{
-    
-    height: 200px;
-    width: 350px;
-}
-
-.i6 hr{
-    margin-bottom: 10px;
-    width: 350px;
-    height: 10px;
-    background-color: black;
-    
-}
-.i6 h4{
-    font-size: 16px;
-    color: rgb(73, 71, 71);
-}
-.i6 h3{
-    font-size: 30px;
-}
-.hold button{
-    display: inline-block;
-    background-color: #02789e;
-    color: #fff;
-    font-size: 1.6rem;
-    font-family: 'Proxima Nova Rg';
-    font-weight: 700;
-    margin: 0 auto;
-    padding: 15px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: all .5s;
-    border: 2px solid transparent;
-    margin-left: 50px;
-}
-@media (max-width: 480px) {
 }
