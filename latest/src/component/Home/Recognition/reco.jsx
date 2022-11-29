@@ -4,7 +4,7 @@ const Class=()=>{
 
     return(
 <div className="class">
-    <div className="cl">Recognitions</div>
+    <div className="call">Recognitions</div>
     <div className="cl1">
         <img src="https://www.sparxitsolutions.com/assets-style/images/microsoft.svg"
         alt=""

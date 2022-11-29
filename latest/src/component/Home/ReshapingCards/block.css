@@ -14,39 +14,33 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 50px;
+    gap: 90px;
 }
-.dev h1{
-    font-size: 25px;
-    margin-left: 40px;
-    margin-top: 30px;
-    font-weight: bold;
+.dev{
+    width: 350px;
+    height: 200px;
+    
 }
-
 .dev p{
-    margin-left: 40px;
-    margin-top: 30px;
+ padding: 20px;
 }
 
-.dev1 h1{
-    font-size: 25px;
-    margin-left: 40px;
-    margin-top: 30px;
-    font-weight: bold;
+.cloud{
+    width: 350px;
+    height: 200px;
+    
+}
+.cloud p{
+ padding: 20px;
 }
 
-.dev1 p{
-    margin-left: 40px;
-    margin-top: 30px;
-}
+.outcome{
+    width: 350px;
+    height: 200px;
 
-.dev2 h1{
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 40px;
-    margin-top: 30px;
 }
-
-.dev2 p{
-    margin-left: 40px;
-    margin-top: 30px;
+.outcome p{
+ padding: 20px;
 }

@@ -19,22 +19,22 @@ const Hero =()=>{
     return (
        
         <div className="text">
-          <div className="te">
-           <div className="text1">   
+          <div className="tech">
+           <div className="ideate">   
 <hr></hr>
             <h1>We Ideate,
-                <br/>Innovate,Create <br/></h1>
+                <br/>Innovate,Create </h1>
                 <h2>Technology Solutions</h2>
-                <div className="tx">
-                <p>The goal is to deliver quality-focused<br/>
-                 Software products to aspiring businesses.<br/>
-                 Our service delivery approach comprises <br/>
-                 structured management with an agile <br/>adaption of the latest trends.</p>
+                <div className="goal">
+                <p>The goal is to deliver quality-focused
+                 Software products to aspiring businesses.
+                 Our service delivery approach comprises 
+                 structured management with an agile adaption of the latest trends.</p>
                  
                  </div>
              
            </div>
-           <div className="text2">
+           <div className="innova">
             <h3>Insights To The Innovation</h3>
 
            <div className="bt">

@@ -2,92 +2,71 @@ import React from "react";
 import "./stake.css";
 const Stakes = () => {
   return (
-    <div className="hold">
+    <div className="stake">
       <h1>
-        The Stakeholders of
-        <br />
-        Futuristic Technology Solutions
+        The Stakeholders of Futuristic Technology Solutions
       </h1>
       <p>Your Ideas, Our Expertise = Maximum Customer Success</p>
 
       <div className="grid">
-        <div className="i1">
-          <hr></hr>
+        <div className="chain">
+          <div className="name"></div>
           <h3>
-            Blockchain <br />
+            Blockchain 
             Development
           </h3>
-          <br></br>
           <h4>
-            Enhancing and securing the ways to store
-            <br /> and modify data of transactions with
-            <br /> Blockchain-powered solutions for banking, <br />
-            finance, healthcare, and other industries.
+            Enhancing and securing the ways to store and modify data of transactions with
+             Blockchain-powered solutions for banking, finance, healthcare, and other industries.
           </h4>
         </div>
-        <div className="i2">
-          <hr></hr>
+        <div className="unfold">
+        <div className="name"></div>
           <h3>IoT</h3>
-          <br />
           <h4>
-            Unfold the incredible abilities of the <br />
-            internet-of-things to transfer data without
-            <br /> human intervention. A well-architectured <br /> IoT ecosystem
+            Unfold the incredible abilities of the internet-of-things to transfer data without
+             human intervention. A well-architectured  IoT ecosystem
             transforms the business.
           </h4>
         </div>
-        <div className="i3">
-          <hr />
+        <div className=" Augmented">
+        <div className="name"></div>
           <h3>
-            Augmented <br />
-            Reality
+            Augmented Reality
           </h3>
-          <br />
           <h4>
-            Mingle technology and real-world with <br />
-            supreme Augmented reality solutions to
-            <br />
-            increase the emotional interaction and <br />
+            Mingle technology and real-world with 
+            supreme Augmented reality solutions to increase the emotional interaction and 
             appeal of your brand.
           </h4>
         </div>
-        <div className="i4">
-          <hr />
+        <div className="power">
+        <div className="name"></div>
           <h3>
-            Data
-            <br />
-            Intelligence
+            Data Intelligence
           </h3>
           <br />
           <h4>
-            Analyze your business roadmap and
-            <br /> possible outcomes more sophisticatedly <br />
+            Analyze your business roadmap and possible outcomes more sophisticatedly
             using the power of data.
           </h4>
         </div>
-        <div className="i4">
-          <hr />
+        <div className="artificial">
+        <div className="name"></div>
           <h3>
-            Artificial
-            <br />
-            Intelligence
+            Artificial Intelligence
           </h3>
-          <br />
           <h4>
-            Delivering AI-driven solutions to ensure <br />
-            smart interaction with your consumers
-            <br /> through digital assets like chatbots, voice <br />
+            Delivering AI-driven solutions to ensure 
+            smart interaction with your consumers through digital assets like chatbots, voice 
             interfaces, etc.
           </h4>
         </div>
-        <div className="i4">
-          <hr />
+        <div className="Virtual">
+        <div className="name"></div>
           <h3>Virtual Reality</h3>
-          <br />
-          <h4>
-            Create your own world of possibilities using
-            <br /> our advanced VR solutions focusing on
-            <br />
+           <h4>
+            Create your own world of possibilities using our advanced VR solutions focusing on
             varying enterprise needs.
           </h4>
         </div>

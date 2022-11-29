@@ -13,74 +13,75 @@
     display:grid;
     grid-template-columns: auto auto auto;
     background-color: #bcdfea;
+    margin-top: 20px;
     gap: 50px;
 }
-.fr h4{
+.wellness h4{
  margin-top: 10px;
  margin-left: 40px;
  color: #28282e;
 }
-.fr h2{
+.wellness h2{
     margin-top: 30px;
     margin-left: 40px;
     color: #14151b;
     font-weight: bold;
 }
-.fr p{
+.wellness p{
     margin-top: 50px;
     margin-left: 40px;
     color: #28282e;
 }
 
-.fr1 h4{
+.cost h4{
     margin-top: 10px;
     margin-left: 40px;
     color: #28282e;
    }
-   .fr1 h2{
+.cost h2{
        margin-top: 30px;
        margin-left: 40px;
        color: #14151b;
        font-weight: bold;
    }
-   .fr1 p{
+.cost p{
        margin-top: 50px;
        margin-left: 40px;
        color: #28282e;
    }
    
-.fr2 h4{
+.well h4{
     margin-top: 10px;
     margin-left: 40px;
     color: #28282e;
     
    }
-   .fr2 h2{
+.well h2{
        margin-top: 30px;
        margin-left: 40px;
        color: #14151b;
        font-weight: bold;
    }
-   .fr2 p{
+.well p{
        margin-top: 50px;
        margin-left: 40px;
        color: #28282e;
    }
-   .fr hr{
+.wellness hr{
     border: 3px solid black;
     margin-top: 50px;
     width: 50px;
     margin-left: 30px;
    }
    
-   .fr1 hr{
+.cost hr{
     border: 3px solid black;
     margin-top: 50px;
     width: 50px;
     margin-left: 30px;
    }
    
-   .fr2 hr{
+.well hr{
     border: 3px solid black;
     margin-top: 50px;
     width: 50px;

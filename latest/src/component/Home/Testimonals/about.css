@@ -18,29 +18,25 @@
 .about h1{
     margin-top: 0px;
 }
-.about hr{
-    border: 2px solid black;
-    
-}
-.about .us{
+
+.about-us{
     display: grid;
     grid-template-columns: auto auto auto auto;
     
-    
 }
-.us h1{
+.about-us h1{
     font-size: 30px;
     margin-left: 10px;
     font-weight: bold;
 }
-.us p {
+.about-us p {
      margin-top: 10px;
     color: #696b6e;
     font-size:20px;
     font-weight: 600;
-
+  padding: 20px;
 }
-.name img{
+.mur img{
     width: 200px;
     height: 200px;
     margin-left: 10px;
@@ -52,12 +48,12 @@
     color: #696b6e;
     margin-top: 10px;
 }
-.vl {
+.rated {
     border-left: 2px solid black;
     margin-left: 20px;
     height: 250px;
   }
-  .dev p {
+  .favourite p {
     font-size: 16px;
   }
   

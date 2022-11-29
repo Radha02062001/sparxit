@@ -9,15 +9,15 @@
   font-family: "montserrat-Medium";
   font-weight: bold;
 }
-.hold {
+.stake {
   background-color: rgb(240, 232, 233);
 }
-.hold h1 {
+.stake h1 {
   font-size: 40px;
   font-weight: bolder;
-  margin-left: 30px;
+  padding: 20px;
 }
-.hold p {
+.stake p {
   font-size: 20px;
   margin-left: 30px;
 }
@@ -28,116 +28,119 @@
   gap: 50px;
   padding: 70px;
 }
-.i1 {
+.chain {
   height: 200px;
   width: 350px;
 }
-.i1 hr {
+.name {
+ border: 4px solid black;
+}
+.chain h4 {
+  font-size: 16px;
+  color: rgb(73, 71, 71);
+  padding: 10px;
+}
+.chain h3 {
+  font-size: 30px;
+}
+.unfold {
+  height: 200px;
+  width: 350px;
+}
+.unfold hr {
   margin-bottom: 10px;
   width: 350px;
   height: 10px;
   background-color: black;
 }
-.i1 h4 {
+.unfold h4 {
   font-size: 16px;
   color: rgb(73, 71, 71);
+  padding: 10px;
 }
-.i1 h3 {
+.unfold h3 {
   font-size: 30px;
 }
-.i2 {
+.Augmented {
   height: 200px;
   width: 350px;
 }
-.i2 hr {
+
+.Augmented hr {
   margin-bottom: 10px;
   width: 350px;
   height: 10px;
   background-color: black;
 }
-.i2 h4 {
+.Augmented h4 {
   font-size: 16px;
   color: rgb(73, 71, 71);
+  padding: 10px;
 }
-.i2 h3 {
+.Augmented h3 {
   font-size: 30px;
 }
-.i3 {
+
+.power {
   height: 200px;
   width: 350px;
 }
 
-.i3 hr {
+.power hr {
   margin-bottom: 10px;
   width: 350px;
   height: 10px;
   background-color: black;
 }
-.i3 h4 {
+.power h4 {
   font-size: 16px;
   color: rgb(73, 71, 71);
+  padding: 10px;
 }
-.i3 h3 {
+.power h3 {
   font-size: 30px;
 }
 
-.i4 {
+.artificial {
   height: 200px;
   width: 350px;
 }
 
-.i4 hr {
+.artificial hr {
   margin-bottom: 10px;
   width: 350px;
   height: 10px;
   background-color: black;
 }
-.i4 h4 {
+.artificial h4 {
   font-size: 16px;
   color: rgb(73, 71, 71);
+  padding: 10px;
 }
-.i4 h3 {
+.artificial h3 {
   font-size: 30px;
 }
 
-.i5 {
+.Virtual {
   height: 200px;
   width: 350px;
 }
 
-.i5 hr {
+.Virtual hr {
   margin-bottom: 10px;
   width: 350px;
   height: 10px;
   background-color: black;
 }
-.i5 h4 {
+.Virtual h4 {
   font-size: 16px;
   color: rgb(73, 71, 71);
+  padding: 10px;
 }
-.i5 h3 {
+.Virtual h3 {
   font-size: 30px;
 }
-
-.i6 {
-  height: 200px;
-  width: 350px;
-}
-
-.i6 hr {
-  margin-bottom: 10px;
-  width: 350px;
-  height: 10px;
-  background-color: black;
-}
-.i6 h4 {
-  font-size: 16px;
-  color: rgb(73, 71, 71);
-}
-.i6 h3 {
-  font-size: 30px;
-}
-.hold button {
+.stake button {
   display: inline-block;
   background-color: #02789e;
   color: #fff;
