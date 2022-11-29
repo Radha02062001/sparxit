@@ -16,9 +16,32 @@ import motorola from "../../../assets/icons/header/motorola.svg";
 import necco from "../../../assets/icons/header/necco.svg";
 import suzuki from "../../../assets/icons/header/suzuki.svg";
 import { Link } from "react-router-dom";
+import cancel from "../../../assets/images/header/cancel.jpg";
 import Slider from "react-slick";
+import ham from "../../../assets/images/header/hamburger.jpg";
 
 const Header = () => {
+  const [dropdown, setDropdown] = React.useState(false);
+
+  const hamburger = (
+    <img
+      src={ham}
+      className="hamburger"
+      onClick={(e) => {
+        e.preventDefault();
+        setDropdown(true);
+      }}
+    />
+  );
+
+  const dropcontent = (
+    <div className="dropdown-content">
+      <div className="dropdown-menu">
+        <img src={mainlogo} />
+      </div>
+    </div>
+  );
+
   return (
     <div className="top-nav">
       <div className="main-logo">
@@ -79,7 +102,7 @@ const Header = () => {
 
               <div className="ecom-app">
                 <h4>eCommerce Development</h4>
-               <Link to="/ecom">eCommerce Web Development</Link>
+                <Link to="/ecom">eCommerce Web Development</Link>
                 <a href="#">eCommerce App development </a>
               </div>
               <div className="design-app">
@@ -273,6 +296,8 @@ const Header = () => {
           <Link to="/contact">Contact Us</Link>
         </div>
       </div>
+      {hamburger}
+      {dropdown && dropcontent}
     </div>
   );
 };

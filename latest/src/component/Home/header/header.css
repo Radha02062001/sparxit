@@ -9,9 +9,6 @@
   font-family: "montserrat-Medium";
   src: url(../../../assets/fonts/Montserrat-Medium.ttf);
 }
-.top-nav {
-  width: 100%;
-}
 .ces {
   text-align: center;
 }
@@ -24,7 +21,7 @@
   color: white;
   text-decoration: none;
 }
-.main-logo {
+.top-nav {
   display: flex;
   padding: 20px;
   flex-direction: row;
@@ -32,6 +29,14 @@
   justify-content: space-evenly;
   box-shadow: 0 0 19.36px 2.64px rgb(20 21 27 / 8%);
 }
+/* .main-logo {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 0 19.36px 2.64px rgb(20 21 27 / 8%);
+} */
 .para {
   width: 120px;
   margin: 8px 16px 0 0;
@@ -90,11 +95,134 @@
   transform-origin: bottom right;
   transition: transform 1.5s ease-out;
 }
+.show-service-content .app-dev a {
+  position: relative;
+}
+.show-service-content .app-dev a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .app-dev a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
 
 .service-btn:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
   background-color: black;
+}
+.show-service-content .app-dev a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-service-content .blockchain a {
+  position: relative;
+}
+.show-service-content .blockchain a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .blockchain a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-service-content .blockchain a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-service-content .startup-app a {
+  position: relative;
+}
+.show-service-content .startup-app a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .startup-app a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-service-content .startup-app a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-service-content .ecom-app a {
+  position: relative;
+}
+.show-service-content .ecom-app a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .ecom-app a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-service-content .ecom-app a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-service-content .design-app a {
+  position: relative;
+}
+.show-service-content .design-app a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-service-content .design-app a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-service-content .design-app a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
 }
 .show-service-content {
   padding: 30px;
@@ -153,9 +281,9 @@
             } */
 
 .services:hover .service-content {
-  text-decoration: underline;
   display: block;
 }
+
 .app-dev {
   grid-area: app-dev;
 }
@@ -212,7 +340,6 @@
   height: 3px;
   bottom: 0;
   left: 0;
-
   transform-origin: bottom right;
   transition: transform 1.5s ease-out;
 }
@@ -263,6 +390,156 @@
   color: black;
 }
 
+.show-tech-content .mobile-app a {
+  position: relative;
+}
+.show-tech-content .mobile-app a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .mobile-app a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .mobile-app a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .web a {
+  position: relative;
+}
+.show-tech-content .web a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .web a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .web a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .CMS a {
+  position: relative;
+}
+.show-tech-content .CMS a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .CMS a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .CMS a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .backend a {
+  position: relative;
+}
+.show-tech-content .backend a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .backend a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .backend a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .cloud a {
+  position: relative;
+}
+.show-tech-content .cloud a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .cloud a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .cloud a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-tech-content .fullstack a {
+  position: relative;
+}
+.show-tech-content .fullstack a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-tech-content .fullstack a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-tech-content .fullstack a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
 /* .service-content a:hover {
               background-color: #ddd;
             } */
@@ -304,8 +581,6 @@
 }
 
 .offshore.off-btn:hover::after {
-  /* text-decoration: underline;
-              text-decoration-color: gray; */
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -350,6 +625,32 @@
   color: black;
 }
 
+.off-btn {
+  display: inline-block;
+  position: relative;
+}
+.off-btn:hover {
+  color: grey;
+}
+
+.off-btn:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+
+.off-btn:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
 /* .service-content a:hover {
               background-color: #ddd;
             } */
@@ -359,6 +660,205 @@
   display: block;
 }
 
+.show-off-content .Hire-App a {
+  position: relative;
+}
+.show-off-content .Hire-App a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-App a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-App a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .Hire-Web a {
+  position: relative;
+}
+.show-off-content .Hire-Web a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-Web a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-Web a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .Hire-JS a {
+  position: relative;
+}
+.show-off-content .Hire-JS a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-JS a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-JS a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .offshore a {
+  position: relative;
+}
+.show-off-content .offshore a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .offshore a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .offshore a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .Hire-Full a {
+  position: relative;
+}
+.show-off-content .Hire-Full a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-Full a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-Full a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .Hire-Block a {
+  position: relative;
+}
+.show-off-content .Hire-Block a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .Hire-Block a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .Hire-Block a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .AR a {
+  position: relative;
+}
+.show-off-content .AR a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .AR a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .AR a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
+
+.show-off-content .UI a {
+  position: relative;
+}
+.show-off-content .UI a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-off-content .UI a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-off-content .UI a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
+}
 /* industries */
 
 .industries .industries-btn {
@@ -435,6 +935,31 @@
 .show-industries-content a {
   text-decoration: none;
   color: black;
+}
+
+.show-industries-content .ind a {
+  position: relative;
+}
+.show-industries-content .ind a:after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  transform: scaleX(0);
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 1.5s ease-out;
+}
+.show-industries-content .ind a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: black;
+}
+
+.show-industries-content .ind a:hover {
+  text-decoration: underline;
+  text-decoration-color: grey;
+  color: grey;
 }
 
 /* .service-content a:hover {
@@ -644,3 +1169,24 @@
   top: 0;
   transform: rotateZ(180deg);
 }
+.hamburger {
+  display: none;
+}
+.dropdown-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  z-index: 1;
+  background-color: white;
+  padding: 16px;
+}
+.dropdown-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.dropdown-menu img {
+  cursor: pointer;
+}
+/* @media (max-width:) */

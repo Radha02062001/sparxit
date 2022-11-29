@@ -1,13 +1,13 @@
 import React from "react";
-import About from "../../Home/about/about";
-import Accla from "../../Home/accla/accla";
-import Block from "../../Home/block/block";
-import Box from "../../Home/footer/box/box";
-import From from "../../Home/from/from";
-import Hero from "../../Home/hero/hero";
-import Motto from "../../Home/motto/motto";
-import Class from "../../Home/reco/reco";
-import Stake from "../../Home/stake/stake";
+import About from "../../Home/Testimonals/about";
+import Accla from "../../Home/Acclamations/accla";
+import Block from "../../Home/ReshapingCards/block";
+import Box from "../../Home/footer/Repository/box";
+import From from "../../Home/Developmentcost/from";
+import Hero from "../../Home/Heroslide/hero";
+import Motto from "../../Home/Motto/motto";
+import Class from "../../Home/Recognition/reco";
+import Stake from "../../Home/Stakeholders/stake";
 import Web from "../../Home/web/web";
 const Home = () => {
   return (
