@@ -1,0 +1,96 @@
+@font-face{
+    font-family: "montserrat-Medium";
+    src: url(../../../assets/fonts/Montserrat-Medium.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "montserrat-Medium";
+    font-weight: bold;
+}
+
+.media {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: #bcdfea;
+    gap: 50px;
+}
+.real h4{
+ margin-top: 10px;
+ margin-left: 40px;
+ color: #28282e;
+}
+.real h2{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #14151b;
+    font-weight: bold;
+}
+.real p{
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #28282e;
+}
+
+.real1 h4{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #28282e;
+   }
+.real1 h2{
+       margin-top: 30px;
+       margin-left: 40px;
+       color: #14151b;
+       font-weight: bold;
+   }
+.real1 p{
+       margin-top: 50px;
+       margin-left: 40px;
+       color: #28282e;
+   }
+   
+.real2 h4{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #28282e;
+    
+   }
+.real2 h2{
+       margin-top: 30px;
+       margin-left: 40px;
+       color: #14151b;
+       font-weight: bold;
+   }
+.real2 p{
+       margin-top: 50px;
+       margin-left: 40px;
+       color: #28282e;
+   }
+.real hr{
+    border: 3px solid black;
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 30px;
+   }
+   
+.real1 hr{
+    border: 3px solid black;
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 30px;
+   }
+   
+.real2 hr{
+    border: 3px solid black;
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 30px;
+   }
+   @media (max-width: 600px) {
+    .media{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+   }

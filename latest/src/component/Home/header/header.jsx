@@ -269,12 +269,8 @@ const Header = () => {
           <button className="work-btn">Work</button>
           <div className="work-content">
             <div className=" work-off-content">
-              <a href="#w1">
-                <h4>Portfolio</h4>
-              </a>
-              <a href="#w2">
-                <h4>Case Studies</h4>
-              </a>
+              <Link to ="/portfolio">Portfolio</Link>
+            <Link to="/casestudie">CaseStudies</Link>
             </div>
           </div>
         </div>

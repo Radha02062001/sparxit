@@ -983,6 +983,7 @@
   border: none;
   outline: none;
   background-color: inherit;
+  
 }
 
 .work:hover .work-btn {
@@ -1027,6 +1028,8 @@
   text-decoration: none;
   display: block;
   text-align: left;
+  background-color: black;
+  color:white; 
 }
 .work-content h4 {
   display: block;
