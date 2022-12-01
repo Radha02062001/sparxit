@@ -1,7 +1,7 @@
 import React from "react";
 import "./social.css"
 
-const Social=()=>{
+const Media=()=>{
     return(
 <div className="media">
     <div className="real">
@@ -32,4 +32,4 @@ const Social=()=>{
 </div>
     )
 }
-export default Social;
+export default Media;
