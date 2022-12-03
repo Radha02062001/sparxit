@@ -5,8 +5,8 @@ const Make=()=>{
     return(
 <div className="make">
 <h1>What Makes a Credible Mobile App<br></br> Development Company</h1>
-<div className="credible">
-  <div className="company">
+<div className="credi-ble">
+  <div className="com">
   <div className="faster">
     <div className="de-bar"></div>
     <div className="de-baar"></div>
@@ -33,7 +33,8 @@ const Make=()=>{
   </div>
   </div>
   <div className="bene">
-   
+   <img src="https://www.sparxitsolutions.com/assets-style/images/benefits-img.svg" alt=""
+   width="600px" height="450px" />
   </div>
 </div>
 </div>

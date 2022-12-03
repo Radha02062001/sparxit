@@ -9,88 +9,81 @@
     font-family: "montserrat-Medium";
     font-weight: bold;
 }
-
-.media {
-    display:grid;
-    grid-template-columns: auto auto auto;
+.boosts {
+   display: flex;
+   flex-direction: row;
     background-color: #bcdfea;
+    height: 400px;
     gap: 50px;
 }
-.real h4{
+.ideas h4{
  margin-top: 10px;
  margin-left: 40px;
  color: #28282e;
 }
-.real h2{
+.ideas h2{
     margin-top: 30px;
     margin-left: 40px;
     color: #14151b;
     font-weight: bold;
 }
-.real p{
+.ideas p{
     margin-top: 50px;
     margin-left: 40px;
     color: #28282e;
 }
 
-.real1 h4{
+.doess h4{
     margin-top: 10px;
     margin-left: 40px;
     color: #28282e;
    }
-.real1 h2{
+.doess h2{
        margin-top: 30px;
        margin-left: 40px;
        color: #14151b;
        font-weight: bold;
    }
-.real1 p{
+.doess p{
        margin-top: 50px;
        margin-left: 40px;
        color: #28282e;
    }
    
-.real2 h4{
+.needs h4{
     margin-top: 10px;
     margin-left: 40px;
     color: #28282e;
     
    }
-.real2 h2{
+.needs h2{
        margin-top: 30px;
        margin-left: 40px;
        color: #14151b;
        font-weight: bold;
    }
-.real2 p{
+.needs p{
        margin-top: 50px;
        margin-left: 40px;
        color: #28282e;
    }
-.real hr{
+.ideas hr{
     border: 3px solid black;
     margin-top: 50px;
     width: 50px;
     margin-left: 30px;
    }
    
-.real1 hr{
+.doess hr{
     border: 3px solid black;
     margin-top: 50px;
     width: 50px;
     margin-left: 30px;
    }
    
-.real2 hr{
+.needs hr{
     border: 3px solid black;
     margin-top: 50px;
     width: 50px;
     margin-left: 30px;
-   }
-   @media (max-width: 600px) {
-    .media{
-        display: grid;
-        grid-template-columns: auto;
-        
-    }
    }

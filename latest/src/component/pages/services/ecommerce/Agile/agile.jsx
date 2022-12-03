@@ -6,7 +6,7 @@ const Agile=()=>{
 <div className="enhance">
 <h1>Enhance Your Growth With Our <br/>Multifaceted eCommerce Development Solutions</h1>
 <div className="credible">
-  <div className="company">
+  <div className="comp">
   <div className="faster">
     <div className="de-bar"></div>
     <div className="de-baar"></div>
@@ -36,8 +36,9 @@ Tech-Stack</h2>
     <h3>Using the latest trends and technologies to create fundamentally strong web app architecture.</h3>
   </div>
   </div>
-  <div className="bene">
-   
+  <div className="benes">
+   <img src="https://www.sparxitsolutions.com/assets-style/images/benefits-img.svg" alt=""
+   width="500px" height="450px"/>
   </div>
 </div>
 </div>

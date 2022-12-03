@@ -15,16 +15,16 @@
  padding: 20px;
  
 }
-.credible{
+.credi-ble{
     display:grid;
     grid-template-columns: auto auto;
    margin-top: 50px;
     gap: 10px;
-   margin-left: 60px;
+   
 
 }
-.company{
- width:600px;
+.com{
+ width:500px;
  height: 500px;
  display: flex;
  flex-direction: row;
@@ -32,7 +32,6 @@
 .bene{
     width: 400px;
     height: 400px;
-    background-image: url("../../../../../assets/images/benefits.jpg");
 }
 
 .faster{
@@ -53,7 +52,6 @@
 .smart{
     width: 500px;
     height: 400px;
-    
 }
 .smart h3{
     padding:20px;

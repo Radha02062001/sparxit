@@ -23,16 +23,16 @@
    margin-left: 60px;
 
 }
-.company{
+.comp{
  width:600px;
  height: 500px;
  display: flex;
  flex-direction: row;
 }
-.bene{
+.benes{
     width: 400px;
     height: 400px;
-    background-image: url("../../../../../assets/images/benefits.jpg");
+
 }
 
 .faster{
@@ -41,7 +41,7 @@
 }
 .de-bar{
     border: 1px solid black;
-    width: 610px;
+    width: 670px;
 }
 .de-baar{
     border: 2px solid black;

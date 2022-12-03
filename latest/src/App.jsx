@@ -10,6 +10,8 @@ import Home from "./component/pages/services/home";
 import Services from "./component/pages/services/service";
 import Ecom from "./component/pages/services/ecom"
 import Portfolio from "./component/pages/work/portfolio";
+import Serving from "./component/pages/services/design";
+//import Webdesign from "./component/pages/services/design";
 
 // import Webdesign from "./component/pages/services/webdesign/webdesign";
 // import "slick-carousel/slick/slick.css";
@@ -25,7 +27,7 @@ function App() {
         <Route path="/Services" element={<Services />} />
         <Route path="/ecom" element={<Ecom/>}/>
         <Route path="/portfolio" element={<Portfolio/>}/>
-      
+       <Route path="/webdesign" element={<Serving/>}/>
       </Routes>
 
       <Footer />

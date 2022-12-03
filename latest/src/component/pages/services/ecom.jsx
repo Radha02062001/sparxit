@@ -8,6 +8,7 @@ import Agile from "./ecommerce/Agile/agile";
 import Portfolio from "./ecommerce/Port/port";
 import Magento from "./ecommerce/Magento/magento";
 import Smart from "./ecommerce/Smart/smart";
+import Question from "./ecommerce/FAQ/faqs";
 const Ecom=()=>{
     return(
 <>
@@ -20,6 +21,7 @@ const Ecom=()=>{
 <Smart/>
 <Magento/>
     <Request/>
+<Question/>
 </>
     )
 }

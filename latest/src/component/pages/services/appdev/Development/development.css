@@ -32,206 +32,221 @@
     padding:60px;
     
 }
-.div1{
+.ios{
 
     height: 250px;
     width: 350px;
 }
-.div1 hr{
+.ios hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.div1 h4{
+.ios h4{
     font-size: 16px;
+    padding: 10px;
     color: rgb(73, 71, 71);
 }
-.div1 h3{
+.ios h3{
     font-size: 30px;
+    padding: 10px;
 }
-.div1 h3:hover{
+.ios h3:hover{
     color: red;
 }
-.div2{
+.android{
     
     height: 250px;
     width: 350px;
 }
-.div2 hr{
+.android hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.div2 h4{
+.android h4{
     font-size: 16px;
+    padding: 10px;
     color: rgb(73, 71, 71);
 }
-.div2 h3{
+.android h3{
     font-size: 30px;
+    padding: 10px;
 }
-.div2 h3:hover{
+.android h3:hover{
     color: red;
 }
-.div3{
+.chain{
+    height: 250px;
+    width: 350px;
+}
+
+.chain hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.chain h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.chain h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.chain h3:hover{
+    color: red;
+}
+.demand{
+    height: 250px;
+    width: 350px;
+}
+
+.demand hr{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 10px;
+    background-color: black;
+}
+.demand h4{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(73, 71, 71);
+}
+.demand h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.demand h3:hover{
+    color: red;
+}
+.hybr-id{
     
     height: 250px;
     width: 350px;
 }
 
-.div3 hr{
-    margin-bottom: 10px;
-    width: 350px;
-    height: 10px;
-    background-color: black;
-}
-.div3 h4{
-    font-size: 16px;
-    color: rgb(73, 71, 71);
-}
-.div3 h3{
-    font-size: 30px;
-}
-.div3 h3:hover{
-    color: red;
-}
-.div4{
-    
-    height: 250px;
-    width: 350px;
-}
-
-.div4 hr{
-    margin-bottom: 10px;
-    width: 350px;
-    height: 10px;
-    background-color: black;
-}
-.div4 h4{
-    font-size: 16px;
-    color: rgb(73, 71, 71);
-}
-.div4 h3{
-    font-size: 30px;
-}
-.div4 h3:hover{
-    color: red;
-}
-.div5{
-    
-    height: 250px;
-    width: 350px;
-}
-
-.div5 hr{
+.hybr-id hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.div5 h4{
+.hybr-id h4{
     font-size: 16px;
+    padding: 10px;
     color: rgb(73, 71, 71);
 }
-.div5 h3{
+.hybr-id h3{
     font-size: 30px;
+    padding: 10px;
 }
-.div5 h3:hover{
+.hybr-id h3:hover{
     color: red;
 }
-.div6{
+.progres{
      height: 250px;
     width: 350px;
 }
 
-.div6 hr{
+.progres hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.div6 h4{
+.progres h4{
     font-size: 16px;
+    padding: 10px;
     color: rgb(73, 71, 71);
 }
-.div6 h3{
+.progres h3{
     font-size: 30px;
+    padding: 10px;
 }
 
-.div6 h3:hover{
+.progres h3:hover{
     color: red;
 }
-.div7{
+.wear{
     height: 250px;
     width: 350px;
 }
 
-.div7 hr{
+.wear hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.div7 h4{
+.wear h4{
     font-size: 16px;
+    padding: 10px;
     color: rgb(73, 71, 71);
 }
-.div7 h3{
+.wear h3{
     font-size: 30px;
+    padding: 10px;
 }
 
-.div7 h3:hover{
+.wear h3:hover{
     color: red;
 }
-.div8{
-    
+.utilize{
     height: 250px;
     width: 350px;
 }
 
-.div8 hr{
+.utilize hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.div8 h4{
+.utilize h4{
     font-size: 16px;
+    padding: 10px;
     color: rgb(73, 71, 71);
 }
-.div8 h3{
+.utilize h3{
     font-size: 30px;
+    padding: 10px;
 }
-.div8 h3:hover{
+.utilize h3:hover{
     color: red;
 }
-.div9{
+.iot{
     height: 250px;
     width: 350px;
 }
 
-.div9 hr{
+.iot hr{
     margin-bottom: 10px;
     width: 350px;
     height: 10px;
     background-color: black;
     
 }
-.div9 h4{
+.iot h4{
     font-size: 16px;
+    padding: 10px;
     color: rgb(73, 71, 71);
 }
-.div9 h3{
+.iot h3{
     font-size: 30px;
+    padding:10px;
 }
 
-.div9 h3:hover{
+.iot h3:hover{
     color: red;
 }

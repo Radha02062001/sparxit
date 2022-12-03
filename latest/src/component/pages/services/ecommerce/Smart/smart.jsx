@@ -10,7 +10,7 @@ const Smart=()=>{
  <img src="https://www.sparxitsolutions.com/assets-style/images/process-five.svg" alt=""
  width="500" height="600" />
     </div>
-    <div className="Analysis">
+    <div className="Analysi">
 <div className="analys">
     
 <div className="an-alys"></div>
@@ -33,7 +33,7 @@ const Smart=()=>{
     <div className="an-alyss"></div>
 <h2>Deployment</h2>
 </div>
-<div className="find">
+<div className="finds">
 <h3>Our development process begins with market research, finding business objectives, required data collection, finding the
      business objective, and identifying the feasibility of the project.</h3>
 <h3>After the deep market analysis and data gathering,

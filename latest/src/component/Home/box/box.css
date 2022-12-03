@@ -152,6 +152,7 @@
 }
 .w3 h3{
   margin-left: 40%;
+  color: #fff;
   
 }
 .ne{
@@ -167,6 +168,9 @@
 .box2 h3{
     margin-top: 10px;
     font-size: 30px;
+    color: #fff;
+}
+.box2w3 h3{
     color: #fff;
 }
 .box2 p{

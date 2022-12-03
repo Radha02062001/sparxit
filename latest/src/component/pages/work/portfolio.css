@@ -301,7 +301,7 @@
 .RML:hover .overlay {
     width: 100%;
   }
-.Eefendi{
+.fendi{
     width: 550px;
     height: 300px;
     position: relative;
@@ -309,7 +309,7 @@
     background-image: url("../../../../src/assets/images/eefendi.jpg");
 }
 
-.Eefendi button{
+.fendi button{
     margin-top: 200px;
     margin-left: 20px;
     width:130px;
@@ -317,7 +317,7 @@
     background-color: #f7a898;
     color: white;
 }
-.Eefendi:hover .overlay {
+.fendi:hover .overlay {
     width: 100%;
   }
 .Getmybook{
@@ -358,7 +358,7 @@
 .Wynora:hover .overlay {
     width: 100%;
   }
-.Wonderfruit{
+.Wonder{
     width: 550px;
     height: 300px;
     position: relative;
@@ -366,7 +366,7 @@
     background-image: url("../../../../src/assets/images/wonder-fruit.jpg");
 }
 
-.Wonderfruit button{
+.Wonder button{
     margin-top: 200px;
     margin-left: 20px;
     width:130px;
@@ -374,7 +374,7 @@
     background-color: #f7a898;
     color: white;
 }
-.Wonderfruit:hover .overlay {
+.Wonder:hover .overlay {
     width: 100%;
   }
 .port{
@@ -402,4 +402,83 @@
     border-radius: 4px;
     transition: all .5s;
     border: 2px solid transparent;
+}
+
+.real h4{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: #28282e;
+   }
+   .real h2{
+       margin-top: 30px;
+       margin-left: 40px;
+       color: #14151b;
+       font-weight: bold;
+   }
+   .real p{
+       margin-top: 50px;
+       margin-left: 40px;
+       color: #28282e;
+   }
+   
+   .real1 h4{
+       margin-top: 10px;
+       margin-left: 40px;
+       color: #28282e;
+      }
+   .real1 h2{
+          margin-top: 30px;
+          margin-left: 40px;
+          color: #14151b;
+          font-weight: bold;
+      }
+   .real1 p{
+          margin-top: 50px;
+          margin-left: 40px;
+          color: #28282e;
+      }
+      
+   .real2 h4{
+       margin-top: 10px;
+       margin-left: 40px;
+       color: #28282e;
+       
+      }
+   .real2 h2{
+          margin-top: 30px;
+          margin-left: 40px;
+          color: #14151b;
+          font-weight: bold;
+      }
+   .real2 p{
+          margin-top: 50px;
+          margin-left: 40px;
+          color: #28282e;
+      }
+   .real hr{
+       border: 3px solid black;
+       margin-top: 50px;
+       width: 50px;
+       margin-left: 30px;
+      }
+      
+   .real1 hr{
+       border: 3px solid black;
+       margin-top: 50px;
+       width: 50px;
+       margin-left: 30px;
+      }
+      
+   .real2 hr{
+       border: 3px solid black;
+       margin-top: 50px;
+       width: 50px;
+       margin-left: 30px;
+      }
+      
+.so-cial {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: #bcdfea;
+    gap: 50px;
 }

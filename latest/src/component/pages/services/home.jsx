@@ -15,10 +15,10 @@ const Home = () => {
       <Hero />
       <Accla />
       <Motto />
-      <Stakes />
       <Web />
       <Block />
-      <Class />
+      <Class/>
+      <Stakes/>
       <Box />
       <About />
       <From />
